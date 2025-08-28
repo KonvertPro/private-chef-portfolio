@@ -53,9 +53,10 @@ const router = createBrowserRouter([
       { path: "reviews", element: <Reviews /> },
       { path: "contact", element: <Contact /> },
       { path: "*", element: <NotFound /> }, // 404
-    ],
-  },
-])
+    ]},
+],
+{ basename: import.meta.env.BASE_URL }
+)
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
