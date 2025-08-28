@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #FAFAF8;
+  --color-ink: #111315;
+  --color-muted: #6B6F76;
+  --color-line: #E7E4DE;
+  --color-champagne: #C9A969;
+  --color-olive: #4E5A3C;
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
